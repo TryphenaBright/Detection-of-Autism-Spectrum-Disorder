@@ -28,14 +28,6 @@ Database used: SQL Lite
 Login Page contains User name and Encrypted password.
 Total Number of Data:1985
 
-Libraries Used:
-1.	Numpy: To hold Arrays.
-2.	Pandas: To work with Datasets.
-3.	Streamlit: Python Framework to create user interface.
-4.	Pickle- It issue to convert python objects into byte stream to store it in a file or database, Transport data over network.
-5.	Sklearn: to learn the transformations applied to the data before feeding it to the algorithm.
-
-
 Functions used:
 1.	StandardScaler(): It is a function used to standardize the data values into a standard format. To make it standard mean must be 0 and Standard deviation is 1.
 Standardization has two things to do with,
