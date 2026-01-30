@@ -3,13 +3,7 @@ According to a report by ETHealthWorld, about million people in india are diagno
 A method for identifying autism spectrum disorder (ASD) using deep learning and eye movement tracking is proposed in the study "Diagnosis of Autism Spectrum Disorder Through Eye Movement Tracking Using Deep Learning“. The above may need doctor consultations which again put parents in distress.
 Existing system help a medical practitioner to diagnose more precisely but we would like to take it to the parents since 1 to 1.5% of the total ASD in India does not arched due to lack of awareness and fear among parents. This also resulted in many unknown cases of ASD in India.
 The main motive of the project is to help parents to identify ASD in initial stage so that therapies could be overarched in the early life of Children which could help them to develop into an individual who could take up their day to day activities without any support.
-The working of the Project
-•	Support Vector Machine, a well-known supervised learning algorithm, is used to train the model because it uses a hyperplane to separate positive and negative input.
-•	STEP1: To standardize the data, import StandardScaler from sklearn. preprocessing  in python.
-•	STEP2: To test and train the data, import train_test_split from sklearn.model_selection  in python.
-•	STEP3: To import SVM from sklearn  in python.
-•	STEP4: To calculate the accuracy of the data, import accuracy_score from sklearn. metrics in python.
-•	The dataset is obtained from Kaggle which is used in training the model.
+
  
 Data Collected
 1.	Social responsiveness: Which means how the baby reacts to the society. For example, at 3months of age the baby should try grabbing things.
