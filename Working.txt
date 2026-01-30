@@ -1,0 +1,7 @@
+The working of the Project
+•	Support Vector Machine, a well-known supervised learning algorithm, is used to train the model because it uses a hyperplane to separate positive and negative input.
+•	STEP1: To standardize the data, import StandardScaler from sklearn. preprocessing  in python.
+•	STEP2: To test and train the data, import train_test_split from sklearn.model_selection  in python.
+•	STEP3: To import SVM from sklearn  in python.
+•	STEP4: To calculate the accuracy of the data, import accuracy_score from sklearn. metrics in python.
+•	The dataset is obtained from Kaggle which is used in training the model.
