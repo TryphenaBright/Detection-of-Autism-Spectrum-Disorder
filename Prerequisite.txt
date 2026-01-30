@@ -4,3 +4,18 @@ Libraries Used:
 3.	Streamlit: Python Framework to create user interface.
 4.	Pickle- It issue to convert python objects into byte stream to store it in a file or database, Transport data over network.
 5.	Sklearn: to learn the transformations applied to the data before feeding it to the algorithm.
+
+Database used: SQL Lite
+Login Page contains User name and Encrypted password.
+Total Number of Data:1985
+
+Functions used:
+StandardScaler(): It is a function used to standardize the data values into a standard format. To make it standard mean must be 0 and Standard deviation is 1.
+Standardization has two things to do with,
+Normalization: Each and every feature contribute equally to the model training process.
+Robustness: It makes the algorithm work without biased. Make the algorithm more robust and accurate in identifying anomalies (abnormalities) across different datasets.
+Sklearn.model Selection: Used to split our data into train and test sets where feature variables are given as input in the method Train_Test Split.
+SVM: Segregates data using Decision boundary aka hyperplane.
+Sklearn.metrics:  measures the model’s performance.
+Sklearn.metrics import accuracy store- assigns subset accuracy.
+
