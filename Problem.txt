@@ -4,7 +4,6 @@ A method for identifying autism spectrum disorder (ASD) using deep learning and 
 Existing system help a medical practitioner to diagnose more precisely but we would like to take it to the parents since 1 to 1.5% of the total ASD in India does not arched due to lack of awareness and fear among parents. This also resulted in many unknown cases of ASD in India.
 The main motive of the project is to help parents to identify ASD in initial stage so that therapies could be overarched in the early life of Children which could help them to develop into an individual who could take up their day to day activities without any support.
 
- 
 Data Collected
 1.	Social responsiveness: Which means how the baby reacts to the society. For example, at 3months of age the baby should try grabbing things.
 2.	Age in Years
@@ -18,20 +17,7 @@ Data Collected
 10.	Jaundice: Out of the 36,000 babies who developed jaundice, 532 of them were later diagnosed with autism spectrum disorder that is 1.47%.
 11.	Family Member with ASD.
 
-Database used: SQL Lite
-Login Page contains User name and Encrypted password.
-Total Number of Data:1985
 
-Functions used:
-1.	StandardScaler(): It is a function used to standardize the data values into a standard format. To make it standard mean must be 0 and Standard deviation is 1.
-Standardization has two things to do with,
-1.	Normalization: Each and every feature contribute equally to the model training process.
-2.	Robustness: It makes the algorithm work without biased. Make the algorithm more robust and accurate in identifying anomalies (abnormalities) across different datasets.
-
-2.	Sklearn.model Selection: Used to split our data into train and test sets where feature variables are given as input in the method Train_Test Split.
-3.	SVM: Segregates data using Decision boundary aka hyperplane.
-4.	Sklearn.metrics:  measures the model’s performance.
-5.	Sklearn.metrics import accuracy store- assigns subset accuracy.
 
 Steps:
 1.	Read the Dataset
