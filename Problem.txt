@@ -19,10 +19,5 @@ Data Collected
 
 
 
-Steps:
-1.	Read the Dataset
-2.	Standardize the data
-3.	Test, Train and split the Data
-4.	Classification by SVM
-5.	Calculating the Accuracy.
+
 
