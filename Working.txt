@@ -5,3 +5,11 @@ The working of the Project
 •	STEP3: To import SVM from sklearn  in python.
 •	STEP4: To calculate the accuracy of the data, import accuracy_score from sklearn. metrics in python.
 •	The dataset is obtained from Kaggle which is used in training the model.
+
+Steps:
+1.	Read the Dataset
+2.	Standardize the data
+3.	Test, Train and split the Data
+4.	Classification by SVM
+5.	Calculating the Accuracy.
+
