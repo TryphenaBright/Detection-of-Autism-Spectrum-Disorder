@@ -1,1 +1,56 @@
+Until 2001 there where Zero cases in ASD in India, it doesn’t mean that India is ASD free, it doesn’t aware of Autism. The government only recognized the disorder in 2001. According to a 2021 study published in Indian Journal of paediatrics, the estimated prevalence of Autism in India is around 1 in 68 children. Boys are more commonly affected and the ratio to Boys and girl is of approximately 3:1.
+According to a report by ETHealthWorld, about million people in india are diagnosed with autism about 1 to 1.5 percent children aged two to nine years are diagnosed with ASD. Early diagnosis and intervention is still inadequate because the parents lack the necessary knowledge and information. And it is also stated that Indian parents hesitate to talk about such things to the doctor and this was the reason for the lacking in therapies. Early detection is the key to enabling children with ASD to lead a productive life.
+A method for identifying autism spectrum disorder (ASD) using deep learning and eye movement tracking is proposed in the study "Diagnosis of Autism Spectrum Disorder Through Eye Movement Tracking Using Deep Learning“. The above may need doctor consultations which again put parents in distress.
+Existing system help a medical practitioner to diagnose more precisely but we would like to take it to the parents since 1 to 1.5% of the total ASD in India does not arched due to lack of awareness and fear among parents. This also resulted in many unknown cases of ASD in India.
+The main motive of the project is to help parents to identify ASD in initial stage so that therapies could be overarched in the early life of Children which could help them to develop into an individual who could take up their day to day activities without any support.
+The working of the Project
+•	Support Vector Machine, a well-known supervised learning algorithm, is used to train the model because it uses a hyperplane to separate positive and negative input.
+•	STEP1: To standardize the data, import StandardScaler from sklearn. preprocessing  in python.
+•	STEP2: To test and train the data, import train_test_split from sklearn.model_selection  in python.
+•	STEP3: To import SVM from sklearn  in python.
+•	STEP4: To calculate the accuracy of the data, import accuracy_score from sklearn. metrics in python.
+•	The dataset is obtained from Kaggle which is used in training the model.
+ 
+Data Collected
+1.	Social responsiveness: Which means how the baby reacts to the society. For example, at 3months of age the baby should try grabbing things.
+2.	Age in Years
+3.	Speech delay/ Language disorder:  If your child is not meeting these milestones—for example, not babbling by the age of 9 months, not using single words by 16 months, or not combining words by 24 months—it may be time to consult a professional
+4.	Learning disorder: Learning disabilities are disorders that affect the ability to: Understand or use spoken or written language. Do mathematical calculations. Coordinate movements. Direct attention.
+5.	Depression
+6.	Global Development Delay/ Intellectual Disability: When a child takes longer to reach certain development milestones than other children their age. This might include learning to walk or talk, movement skills
+7.	Social/ Behavioural Issue
+8.	Anxiety Disorder: From the age of around 6 months to 3 years it's very common for young children to have separation anxiety. They may become clingy and cry when separated from their parents or carers.
+9.	Sex
+10.	Jaundice: Out of the 36,000 babies who developed jaundice, 532 of them were later diagnosed with autism spectrum disorder that is 1.47%.
+11.	Family Member with ASD.
+
+Database used: SQL Lite
+Login Page contains User name and Encrypted password.
+Total Number of Data:1985
+
+Libraries Used:
+1.	Numpy: To hold Arrays.
+2.	Pandas: To work with Datasets.
+3.	Streamlit: Python Framework to create user interface.
+4.	Pickle- It issue to convert python objects into byte stream to store it in a file or database, Transport data over network.
+5.	Sklearn: to learn the transformations applied to the data before feeding it to the algorithm.
+
+
+Functions used:
+1.	StandardScaler(): It is a function used to standardize the data values into a standard format. To make it standard mean must be 0 and Standard deviation is 1.
+Standardization has two things to do with,
+1.	Normalization: Each and every feature contribute equally to the model training process.
+2.	Robustness: It makes the algorithm work without biased. Make the algorithm more robust and accurate in identifying anomalies (abnormalities) across different datasets.
+
+2.	Sklearn.model Selection: Used to split our data into train and test sets where feature variables are given as input in the method Train_Test Split.
+3.	SVM: Segregates data using Decision boundary aka hyperplane.
+4.	Sklearn.metrics:  measures the model’s performance.
+5.	Sklearn.metrics import accuracy store- assigns subset accuracy.
+
+Steps:
+1.	Read the Dataset
+2.	Standardize the data
+3.	Test, Train and split the Data
+4.	Classification by SVM
+5.	Calculating the Accuracy.
 
